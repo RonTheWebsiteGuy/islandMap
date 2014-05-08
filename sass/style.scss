@@ -8,9 +8,12 @@
   color: white;
 }
 .mapHawaii{
-  height: 430px;
+  height: 500px;
   padding-bottom: 80px;
-  background-color: blue;
+  svg{
+    top: 30px;
+    position: relative;
+  }
 }
 
 .footer{

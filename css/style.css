@@ -64,9 +64,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 .mapHawaii {
-  height: 430px;
+  height: 500px;
   padding-bottom: 80px;
-  background-color: blue;
+}
+.mapHawaii svg {
+  top: 30px;
+  position: relative;
 }
 
 .footer {
