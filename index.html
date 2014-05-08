@@ -2,34 +2,32 @@
 <html>
 <head>
   <title>Island Map</title>
-  <script src="js/queue.min.js"> </script>
-  <script src="js/topojson.v0.min.js"> </script>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="js/script.js"></script>
   <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/foundation/5.2.2/css/foundation.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/foundation/5.2.2/js/foundation.min.js"></script>
 </head>
 <body>
-  <div class="row">
-    
-    <div class="row">
-    <div class="small-12 medium-4 columns"><a href="#"><img  id="niihau" src="images/niihou.svg"></a></div>
-    <div class="small-12 medium-4 columns" ><a href="#"><img id="kauai" src="images/kauai.svg"></a></div>
-    <div class="small-12 medium-4 columns" ><a href="#"><img id="oahu" src="images/oahu.svg"></a></div>
-    <div class="small-12 medium-4 columns" ><a href="#"><img id="molokai" src="images/molokai.svg"></a></div>
-    <div class="small-12 medium-4 columns" ><a href="#"><img id="maui" src="images/maui.svg"></a></div>
-    <div class="small-12 medium-4 columns"><a href="#"><img  id="lanai" src="images/lanai.svg"></a></div>
-    <div class="small-8 offset-4 columns" ><a href="#"> <img id="hawaii" src="images/hawaii.svg" ></a></div>
 
+  <div id="header" class="text-center"> 
+   <h1 id="titleOfSite" class="text-center">Well Water Site</h1>
   </div>
-  
-
-
-
-
-</div>
-
+  <div class="row island">
+    <h2 id="islandHeader" class="text-center">Click on an island below to get started</h2>
+    <div class="row islandRow">
+      <div class="small-12 medium-4 large-2 small-centered medium-uncentered columns islands">
+      Ni'ihau<a href="http://www.higp.hawaii.edu/csav/WaterWells/Niihau/"><img  id="niihau" src="images/niihau.svg"></a></div>
+      <div class="small-12 medium-4 large-2 columns islands" >Kaua'i<a href="http://www.higp.hawaii.edu/csav/WaterWells/Kauai/"><img id="kauai" src="images/kauai.svg"></a></div>
+      <div class="small-12 medium-4 large-2 columns islands" >O'ahu<a href="http://www.higp.hawaii.edu/csav/WaterWells/Oahu/"><img id="oahu" src="images/oahu.svg"></a></div>
+      <div class="small-12 medium-4 large-2 columns islands">Moloka'i<a href="http://www.higp.hawaii.edu/csav/WaterWells/Molokai/"><img id="molokai" src="images/molokai.svg"></a></div>
+      <div class="small-12 medium-4 large-2 columns islands">Maui<a href="http://www.higp.hawaii.edu/csav/WaterWells/Maui/"><img id="maui" src="images/maui.svg"></a></div>
+      <div class="small-12 medium-4 large-2 columns islands">Lanai<a href="http://www.higp.hawaii.edu/csav/WaterWells/Lanai/"><img  id="lanai" src="images/lanai.svg"></a></div>
+      <div class="small-8 offset-4 columns islands" >Hawai'i<a href="http://www.higp.hawaii.edu/csav/WaterWells/Hawaii/"> <img id="hawaii" src="images/hawaii.svg" ></a></div>
+    </div>
+  </div>
+  <div id="footer">
+    
+  </div>
 </body>
 </html>
